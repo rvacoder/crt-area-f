@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+>
+<ImageView  
+	android:id="@+id/icon"
+    android:layout_width="80px" 
+    android:layout_height="60px"
+    android:paddingTop="5px"
+    android:paddingLeft="5px"
+    android:paddingRight="5px"
+    android:paddingBottom="5px"
+    android:src="@drawable/icon"
+    />
+    <LinearLayout
+        android:orientation="vertical"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    >
+    <TextView  
+    android:id="@+id/label"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="16sp"
+    android:text="FILLER"
+    />
+    <TextView  
+    android:id="@+id/label2"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:textSize="11sp"
+    android:text="More details about this property people check it out"
+    />
+    </LinearLayout>
+    
+</LinearLayout>
